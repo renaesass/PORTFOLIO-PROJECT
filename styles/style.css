@@ -1,0 +1,30 @@
+h1 {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h3 {
+  font-family: "Caveat", cursive;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+}
+img {
+  max-height: 196.91px;
+  max-width: 350px;
+  min-width: 350px;
+  margin-top: 100px;
+}
+p {
+  text-align: center;
+}
