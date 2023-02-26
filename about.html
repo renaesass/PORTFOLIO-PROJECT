@@ -29,9 +29,11 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg bg-none fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/" title="Home Page">Renae Sass</a>
+        <a class="navbar-brand" href="/" title="Home Page"
+          ><h4>Renae Sass</h4></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -43,31 +45,51 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/" title="Home Page"
+              <a
+                class="nav nav-link"
+                aria-current="page"
+                href="/"
+                title="Home Page"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html" title="About Renae Sass"
+              <a
+                class="nav nav-link"
+                href="/about.html"
+                title="About Renae Sass"
                 >About me</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav nav-link"
+                aria-current="page"
+                href="/projects.html"
+                title="Projects"
+                >Projects</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav nav-link"
                 href="/about.html#contact"
                 title="Contact Renae Sass"
-                >Contact me</a
+                >Contact</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1 class="text-center mt-5">About me</h1>
+    <h1 class="about text-center">about Me</h1>
     <h3 class="text-center">Front-end developer from Melbourne, Australia</h3>
     <div class="about-paragraphs text-center ms-5 me-5">
       <p>

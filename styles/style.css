@@ -5,6 +5,14 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
+h1.project {
+  margin-top: 100px;
+  color: aquamarine;
+}
+
+h1.about {
+  margin-top: 100px;
+}
 h2 {
   font-family: "Caveat", cursive;
   font-weight: bold;
@@ -19,12 +27,140 @@ h3 {
   color: black;
   text-align: center;
 }
+
+h4 {
+  font-family: "Caveat", cursive;
+  color: aquamarine;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
 img {
+  min-height: 196.91px;
   max-height: 196.91px;
   max-width: 350px;
   min-width: 350px;
   margin-top: 100px;
 }
+.profile {
+  display: block;
+  margin: auto;
+  min-height: 350px;
+  min-width: 450px;
+}
+
 p {
   text-align: center;
+}
+
+nav {
+  background-color: #7dc7b0;
+  border-color: #7dc7b0;
+}
+.nav {
+  color: aquamarine;
+}
+.navbar-toggler {
+  color: aquamarine;
+  border-color: aquamarine;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url
+    (
+      "data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(124, 248, 211, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
+    );
+}
+
+body {
+  background-color: #add6c9;
+}
+@media (max-width: 414px) {
+  h1 {
+    color: blue;
+  }
+  h3 {
+    margin: 25px;
+  }
+
+  h4 {
+    margin-top: 10px;
+  }
+
+  img.profile {
+    min-height: 230px;
+    max-height: 230px;
+    max-width: 300px;
+    min-width: 300px;
+  }
+  img {
+    min-height: 196.91px;
+    max-height: 196.91px;
+    max-width: 250px;
+    min-width: 250px;
+    display: block;
+    margin: auto;
+  }
+
+  .navbar {
+    max-height: 60px;
+  }
+}
+@media (max-width: 375px) {
+  img {
+    min-height: 196.91px;
+    max-height: 196.91px;
+    max-width: 250px;
+    min-width: 250px;
+    display: block;
+    margin: auto;
+    margin: 10px;
+  }
+  p {
+    font-size: 14px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+  }
+  img.profile {
+    min-height: 230px;
+    max-height: 230px;
+    max-width: 300px;
+    min-width: 300px;
+  }
+}
+@media (max-width: 280px) {
+  h1 {
+    color: blue;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+
+  img.profile {
+    min-height: 196.91px;
+    max-height: 196.91px;
+    max-width: 250px;
+    min-width: 250px;
+    display: block;
+    margin: auto;
+  }
+  p {
+    font-size: 12px;
+    max-width: 220px;
+    display: block;
+    margin: auto;
+  }
+
+  img {
+    min-height: 165px;
+    max-height: 165px;
+    max-width: 220px;
+    min-width: 220px;
+    display: block !important;
+    margin: auto;
+  }
 }
