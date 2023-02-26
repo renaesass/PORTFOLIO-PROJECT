@@ -1,24 +1,26 @@
 h1 {
-  font-family: "Caveat", cursive;
+  font-family: "Playfair Display', serif;";
   font-weight: bold;
-  color: black;
+  color: #7dc7b0;
   text-align: center;
-  font-size: 50px;
+  font-size: 65px;
 }
 h1.project {
   margin-top: 100px;
-  color: aquamarine;
 }
 
 h1.about {
   margin-top: 100px;
 }
 h2 {
-  font-family: "Caveat", cursive;
+  font-family: "Playfair Display', serif;";
   font-weight: bold;
-  color: black;
+
   text-align: center;
   margin-top: 100px;
+}
+h2.hello {
+  margin-top: 170px;
 }
 
 h3 {
@@ -45,6 +47,7 @@ img {
 .profile {
   display: block;
   margin: auto;
+  margin-top: 40px;
   min-height: 350px;
   min-width: 450px;
 }
@@ -77,36 +80,24 @@ body {
 }
 @media (max-width: 414px) {
   h1 {
-    color: blue;
+    font-size: 45px;
   }
+
+  h2.hello {
+    margin-top: 70px;
+    font-size: 18px;
+  }
+
   h3 {
-    margin: 25px;
+    font-size: 20px;
+    margin-top: 15px;
   }
 
   h4 {
-    margin-top: 10px;
+    font-size: 22px;
+    margin-top: 5px;
   }
 
-  img.profile {
-    min-height: 230px;
-    max-height: 230px;
-    max-width: 300px;
-    min-width: 300px;
-  }
-  img {
-    min-height: 196.91px;
-    max-height: 196.91px;
-    max-width: 250px;
-    min-width: 250px;
-    display: block;
-    margin: auto;
-  }
-
-  .navbar {
-    max-height: 60px;
-  }
-}
-@media (max-width: 375px) {
   img {
     min-height: 196.91px;
     max-height: 196.91px;
@@ -123,16 +114,57 @@ body {
     margin: auto;
   }
   img.profile {
-    min-height: 230px;
+    min-height: 220px;
     max-height: 230px;
     max-width: 300px;
     min-width: 300px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 375px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  h2.hello {
+    margin-top: 70px;
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  h4 {
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+  img {
+    min-height: 196.91px;
+    max-height: 196.91px;
+    max-width: 250px;
+    min-width: 250px;
+    display: block;
+    margin: auto;
+    margin: 10px;
+  }
+  p {
+    font-size: 14px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+  }
+  img.profile {
+    min-height: 220px;
+    max-height: 230px;
+    max-width: 300px;
+    min-width: 300px;
+    margin-top: 25px;
   }
 }
 @media (max-width: 280px) {
-  h1 {
-    color: blue;
-  }
   h1 {
     font-size: 32px;
   }
@@ -141,10 +173,10 @@ body {
   }
 
   img.profile {
-    min-height: 196.91px;
-    max-height: 196.91px;
-    max-width: 250px;
-    min-width: 250px;
+    min-height: 170.91px;
+    max-height: 170.91px;
+    max-width: 230px;
+    min-width: 230px;
     display: block;
     margin: auto;
   }
