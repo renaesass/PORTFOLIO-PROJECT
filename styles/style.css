@@ -28,7 +28,6 @@ h2.hello {
 
 h3 {
   font-family: "Caveat", cursive;
-  font-weight: lighter;
   color: gray;
   text-align: center;
   font-weight: thin;
@@ -83,11 +82,12 @@ body {
 
 @media (max-width: 414px) {
   h1 {
-    font-size: 45px;
+    font-size: 44px;
   }
 
   h2 {
-    margin-top: 30px;
+    margin-top: -15px;
+    font-size: 36px;
   }
 
   h2.hello {
@@ -130,10 +130,19 @@ body {
     min-width: 300px;
     margin-top: 25px;
   }
+
+  a {
+    font-size: 14px;
+  }
 }
 @media (max-width: 375px) {
   h1 {
-    font-size: 38px;
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin-top: -24px;
   }
 
   h2.hello {
@@ -171,6 +180,14 @@ body {
     max-width: 300px;
     min-width: 300px;
     margin-top: 25px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  body {
+    margin: 10px;
   }
 }
 @media (max-width: 280px) {
