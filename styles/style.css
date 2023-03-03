@@ -13,21 +13,25 @@ h1.about {
   margin-top: 100px;
 }
 h2 {
-  font-family: "Playfair Display', serif;";
+  font-family: "Caveat", cursive;
   font-weight: bold;
-
+  margin-top: 30px;
+  color: #7dc7b0;
   text-align: center;
   margin-top: 100px;
+  font-size: 48px;
 }
 h2.hello {
   margin-top: 170px;
+  color: black;
 }
 
 h3 {
   font-family: "Caveat", cursive;
   font-weight: lighter;
-  color: black;
+  color: gray;
   text-align: center;
+  font-weight: thin;
 }
 
 h4 {
@@ -53,6 +57,7 @@ img {
 
 p {
   text-align: center;
+  font-weight: lighter;
 }
 
 nav {
@@ -68,12 +73,21 @@ nav {
 }
 
 body {
-  background-color: #add6c9;
+  background-color: rgb(202, 247, 232);
+}
+
+.icon {
+  color: #7dc7b0;
+  font-size: 36px;
 }
 
 @media (max-width: 414px) {
   h1 {
     font-size: 45px;
+  }
+
+  h2 {
+    margin-top: 30px;
   }
 
   h2.hello {
@@ -91,10 +105,13 @@ body {
     margin-top: 5px;
   }
 
+  body {
+    margin: 10px;
+  }
   img {
     min-height: 196.91px;
     max-height: 196.91px;
-
+    max-width: 250px;
     display: block;
     margin: auto;
     margin: 10px;
@@ -103,7 +120,9 @@ body {
     font-size: 14px;
     max-width: 350px;
     display: block;
+    margin: auto;
   }
+
   img.profile {
     min-height: 220px;
     max-height: 230px;
@@ -156,10 +175,15 @@ body {
 }
 @media (max-width: 280px) {
   h1 {
-    font-size: 32px;
+    font-size: 36px;
   }
   h3 {
-    font-size: 22px;
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-top: -25px;
   }
 
   img.profile {
@@ -175,6 +199,7 @@ body {
     max-width: 220px;
     display: block;
     margin: auto;
+    margin-top: -10px;
   }
 
   img {
@@ -184,6 +209,9 @@ body {
     min-width: 220px;
     display: block;
     margin: auto;
+  }
+  a {
+    font-size: 12px;
   }
 }
 
