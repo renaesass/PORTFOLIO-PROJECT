@@ -75,6 +75,7 @@ p {
   display: block;
   margin: auto;
   padding-top: 20px;
+  margin-bottom: -40px;
 }
 
 nav {
