@@ -116,6 +116,7 @@ body {
     margin: auto;
     margin: 10px;
   }
+
   p {
     font-size: 14px;
     max-width: 350px;
@@ -135,6 +136,7 @@ body {
     font-size: 14px;
   }
 }
+
 @media (max-width: 375px) {
   h1 {
     font-size: 42px;
@@ -163,11 +165,12 @@ body {
   img {
     min-height: 196.91px;
     max-height: 196.91px;
-    max-width: 250px;
+    max-width: 350px;
     display: block;
     margin: auto;
-    margin: 10px;
+    margin: 0px;
   }
+
   p {
     font-size: 14px;
     max-width: 350px;
