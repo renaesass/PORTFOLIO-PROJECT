@@ -1,0 +1,206 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-family: fantasy;
+        font-size: 100px;
+        color: darkgreen;
+        margin: 0%;
+        margin-top: 20px;
+      }
+
+      h2 {
+        text-align: center;
+        font-family: fantasy;
+        color: darkgreen;
+        font-size: 30px;
+      }
+
+      p {
+        text-align: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        font-family: fantasy;
+        line-height: 30px;
+        padding: 35px;
+        font-size: 20px;
+      }
+      a:hover {
+        text-decoration: underline;
+        font-family: 15px;
+      }
+
+      button:hover {
+        color: black;
+        background: darkseagreen;
+        text-decoration: underline;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      button {
+        display: block;
+        margin: auto;
+        height: 70px;
+        width: 200px;
+        color: black;
+        text-decoration: none;
+        border-radius: 6px;
+        margin-bottom: 30px;
+        box-shadow: 7px 7px 12px darkgreen;
+        background-color: darkgreen;
+        font-family: fantasy;
+        font-size: 20px;
+        text-emphasis: bold;
+        margin-top: 30px;
+        margin-bottom: 60px;
+      }
+
+      body {
+        background-color: darkseagreen;
+        border: solid;
+        border-color: darkgreen;
+        border-width: 15px;
+      }
+      span {
+        display: block;
+        margin: auto;
+      }
+
+      .flag {
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        size: 20px;
+        width: 250px;
+      }
+      .thumbnail {
+        border-radius: 6px;
+        display: block;
+        align-self: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        height: 375px;
+        width: 600px;
+        border-color: darkgreen;
+        border-style: solid;
+        border-width: 10px;
+      }
+
+      .link {
+        text-align: center;
+        display: block;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vietnam</h1>
+
+    <img
+      class="flag"
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/017/230/original/output-onlinegiftools_%281%29.gif?1631742368"
+      alt="flag"
+    />
+    <h2>... pack your bags for an inspiring adventure ...</h2>
+
+    <p>
+      There’s never been a better time to choose Vietnam as your holiday
+      destination. The country’s untrammelled landscapes and seascapes are
+      bursting with beautiful views you can have all to yourself. Even if it’s
+      been a while, you can be sure Vietnam’s people are as friendly as ever,
+      its food is as delicious as ever, its culture is as alluring as ever — and
+      all of it is waiting for you. When you’re ready to travel again, we look
+      forward to welcoming you back to Vietnam.
+    </p>
+    <img
+      class="thumbnail"
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/017/235/original/hkl.jpeg?1631746475"
+      alt="Halong Bay"
+    />
+    <br />
+    <a
+      href="https://www.halongbaytours.com/page/why-book-with-us.html"
+      target="blank"
+      class="link"
+      >Book Halong Bay Cruise</a
+    >
+
+    <p>
+      Halong Bay is a beautiful natural wonder in northern Vietnam near the
+      Chinese border. The Bay is dotted with 1,600 limestone islands and islets
+      and covers an area of over 1,500 sqkm. This extraordinary area was
+      declared a UNESCO World Heritage Site in 1994.
+    </p>
+    <img
+      class="thumbnail"
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/017/233/original/c06d58ded35a6e80983a1acd1ab23727.jpeg?1631744791"
+      alt="vietnamese food"
+    />
+    <br />
+    <a
+      href="https://www.taste.com.au/recipes/collections/vietnamese-recipes"
+      target="blank"
+      class="link"
+      >Recepies To Try at Home</a
+    >
+
+    <p>
+      Vietnamese street food is one of the highlights of travelling in Southeast
+      Asia! From Hanoi to Ho Chi Minh City, the streets are alive with the
+      smells and sizzling sounds of locals cooking delicious Vietnamese dishes
+      right by the roadside!
+    </p>
+    <img
+      class="thumbnail"
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/017/232/original/hoi_an.jpeg?1631743937"
+      alt="Hoi An"
+    />
+    <br />
+    <a
+      href="https://www.tripadvisor.com.au/Hotels-g298082-Hoi_An_Quang_Nam_Province-Hotels.html"
+      target="blank"
+      class="link"
+      >Find Hotels in Hoi An</a
+    >
+    <p>
+      Graceful, historic Hoi An is Vietnam’s most atmospheric and delightful
+      town. Once a major port, it boasts the grand architecture and beguiling
+      riverside setting that befits its heritage, and the 21st-century curses of
+      traffic and pollution are almost entirely absent.
+    </p>
+
+    <button>Join Our Mailing List</button>
+
+    <script>
+      function Mailing() {
+        let name = prompt("Xin Chao! What is your name?");
+        if (name.length > 0) {
+          alert("Thanks, " + name + " ");
+          let email = prompt("What is your email?");
+          if (email.length > 0) {
+            alert("Thanks " + name + ", we will be in touch soon!");
+          }
+        } else {
+          alert("Dont be shy, sign up now");
+          name = prompt("Xin Chao! What is your name?");
+          if (name.length > 0) alert("Thanks, " + name + " ");
+          email = prompt("What is your email?");
+          if (email.length > 0) {
+            alert("Thanks " + name + ", we will be in touch soon!");
+          }
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", Mailing);
+    </script>
+  </body>
+</html>
