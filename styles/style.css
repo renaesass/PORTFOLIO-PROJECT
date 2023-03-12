@@ -112,6 +112,7 @@ nav {
 .navbar-toggler {
   color: aquamarine;
   border-color: aquamarine;
+  border-width: 3px;
 }
 
 body {
@@ -130,6 +131,9 @@ body {
   h1 {
     font-size: 44px;
   }
+  h1.about {
+    margin-top: 100px;
+  }
 
   h2 {
     margin-top: 15px;
@@ -144,6 +148,7 @@ body {
   h3 {
     font-size: 20px;
     margin-top: 15px;
+    margin-bottom: 25px;
   }
 
   h4 {
@@ -369,6 +374,15 @@ a {
     display: block;
     margin: auto;
   }
+  h1.about {
+    margin-top: 90px;
+  }
+  h1.project {
+    margin-top: 90px;
+  }
+  h1.contact {
+    margin-top: 90px;
+  }
 
   h2.hello {
     margin-top: 90px;
@@ -376,6 +390,8 @@ a {
   }
   h3 {
     font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   h4 {
     margin-top: 10px;
